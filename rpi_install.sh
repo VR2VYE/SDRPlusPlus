@@ -11,7 +11,7 @@ sudo apt install -y build-essential cmake git libfftw3-dev libglfw3-dev libvolk2
 echo "Preparing build"
 mkdir -p build
 cd build
-cmake .. -DOPT_BUILD_LIMESDR_SOURCE=ON
+cmake .. -DOPT_BUILD_LIMESDR_SOURCE=ON -OPT_BUILD_RTL_SDR_SOURCE
 
 echo "Building"
 make
