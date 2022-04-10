@@ -8,6 +8,9 @@ sudo apt update
 sudo apt install -y build-essential cmake git libfftw3-dev libglfw3-dev libvolk2-dev libzstd-dev libsoapysdr-dev libairspyhf-dev libairspy-dev \
             libiio-dev libad9361-dev librtaudio-dev libhackrf-dev librtlsdr-dev libbladerf-dev liblimesuite-dev p7zip-full wget xrdp
 
+git clone https://github.com/AlexandreRouma/SDRPlusPlus.git
+cd SDRPlusPlus
+
 echo "Preparing build"
 mkdir -p build
 cd build
